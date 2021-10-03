@@ -1,0 +1,26 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\test.Form1.resources
+obj\Debug\test.Resources.resources
+bin\Debug\Package Manager.exe
+bin\Debug\Package Manager.pdb
+bin\Debug\Package Manager.xml
+obj\Debug\Package Manager.vbproj.GenerateResource.Cache
+obj\Debug\Package Manager.exe
+obj\Debug\Package Manager.xml
+obj\Debug\Package Manager.pdb
+obj\Debug\test.About.resources
+bin\Release\Package Manager.exe
+bin\Release\Package Manager.pdb
+bin\Release\Package Manager.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\test.About.resources
+obj\Release\test.Form1.resources
+obj\Release\test.Resources.resources
+obj\Release\Package Manager.vbproj.GenerateResource.Cache
+obj\Release\Package Manager.exe
+obj\Release\Package Manager.xml
+obj\Release\Package Manager.pdb
+obj\Debug\test.Input.resources
+obj\Release\test.Input.resources
+obj\Release\test.Credits.resources
+obj\Debug\test.Credits.resources
