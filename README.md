@@ -1,2 +1,4 @@
-# auditory-complex
-It's A Package Manager™️ (made in visual studio 2005)
+# Auditory Complex
+It's A Shitty Package Manager™️
+
+Most of the work was done by jordiisepic, with some things (like name and logo) done by me.
