@@ -1,0 +1,32 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ac.Credits.resources
+obj\Debug\ac.GetPkg.resources
+obj\Debug\ac.Main.resources
+obj\Debug\ac.NewPkg.resources
+obj\Debug\ac.Resources.resources
+obj\Debug\ac.Splash.resources
+obj\Debug\Auditorial Complex.vbproj.GenerateResource.Cache
+bin\Debug\Auditorial Complex.exe
+bin\Debug\Auditorial Complex.pdb
+bin\Debug\Auditorial Complex.xml
+obj\Debug\Auditorial Complex.exe
+obj\Debug\Auditorial Complex.xml
+obj\Debug\Auditorial Complex.pdb
+bin\Release\Auditorial Complex.exe
+bin\Release\Auditorial Complex.pdb
+bin\Release\Auditorial Complex.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ac.Credits.resources
+obj\Release\ac.GetPkg.resources
+obj\Release\ac.Main.resources
+obj\Release\ac.NewPkg.resources
+obj\Release\ac.Resources.resources
+obj\Release\ac.Splash.resources
+obj\Release\Auditorial Complex.vbproj.GenerateResource.Cache
+obj\Release\Auditorial Complex.exe
+obj\Release\Auditorial Complex.xml
+obj\Release\Auditorial Complex.pdb
+bin\Release\ZipForge.dll
+bin\Release\ZipForge.xml
+bin\Debug\ZipForge.dll
+bin\Debug\ZipForge.xml

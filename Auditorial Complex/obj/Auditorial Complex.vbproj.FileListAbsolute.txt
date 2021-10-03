@@ -1,0 +1,18 @@
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Release\Auditorial Complex.exe
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Release\Auditorial Complex.xml
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Release\Auditorial Complex.pdb
+Z:\Shared Folder\auditory-complex\Auditorial Complex\bin\Debug\Auditorial Complex.exe
+Z:\Shared Folder\auditory-complex\Auditorial Complex\bin\Debug\Auditorial Complex.pdb
+Z:\Shared Folder\auditory-complex\Auditorial Complex\bin\Debug\Auditorial Complex.xml
+Z:\Shared Folder\auditory-complex\Auditorial Complex\bin\Debug\ZipForge.xml
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\ResolveAssemblyReference.cache
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\ac.Credits.resources
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\ac.GetPkg.resources
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\ac.Main.resources
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\ac.NewPkg.resources
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\ac.Resources.resources
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\ac.Splash.resources
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\Auditorial Complex.vbproj.GenerateResource.Cache
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\Auditorial Complex.exe
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\Auditorial Complex.xml
+Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\Auditorial Complex.pdb
