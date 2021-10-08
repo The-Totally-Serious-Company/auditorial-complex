@@ -16,3 +16,22 @@ Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\Auditorial Comple
 Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\Auditorial Complex.exe
 Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\Auditorial Complex.xml
 Z:\Shared Folder\auditory-complex\Auditorial Complex\obj\Debug\Auditorial Complex.pdb
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Debug\Auditorial Complex.exe
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Debug\Auditorial Complex.xml
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Debug\Auditorial Complex.pdb
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\ResolveAssemblyReference.cache
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\ac.Credits.resources
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\ac.GetPkg.resources
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\ac.Main.resources
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\ac.NewPkg.resources
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\ac.Resources.resources
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\ac.Splash.resources
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\Auditorial Complex.vbproj.GenerateResource.Cache
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\Auditorial Complex.exe
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\Auditorial Complex.xml
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\obj\Release\Auditorial Complex.pdb
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\bin\Release\Auditorial Complex.exe
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\bin\Release\Auditorial Complex.pdb
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\bin\Release\Auditorial Complex.xml
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\bin\Release\ZipForge.dll
+Z:\Shared Folder\auditorial-complex\Auditorial Complex\bin\Release\ZipForge.xml
