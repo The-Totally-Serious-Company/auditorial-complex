@@ -52,6 +52,7 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Credits.Designer.vb">
       <DependentUpon>Credits.vb</DependentUpon>
     </Compile>

@@ -69,7 +69,7 @@ Partial Class GetPkg
         Me.ZipForge1.SFXStub = ""
         Me.ZipForge1.SpanningMode = ComponentAce.Compression.Archiver.SpanningMode.None
         Me.ZipForge1.StoreNTFSTimeStamps = False
-        Me.ZipForge1.TempDir = Nothing
+        Me.ZipForge1.TempDir = ""
         Me.ZipForge1.UnicodeFilenames = True
         Me.ZipForge1.Zip64Mode = ComponentAce.Compression.Archiver.Zip64Mode.[Auto]
         '

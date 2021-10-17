@@ -13,7 +13,6 @@ Partial Class Splash
         MyBase.Dispose(disposing)
     End Sub
     Friend WithEvents Version As System.Windows.Forms.Label
-    Friend WithEvents Copyright As System.Windows.Forms.Label
     Friend WithEvents MainLayoutPanel As System.Windows.Forms.TableLayoutPanel
     Friend WithEvents DetailsLayoutPanel As System.Windows.Forms.TableLayoutPanel
 
@@ -29,8 +28,8 @@ Partial Class Splash
         Me.MainLayoutPanel = New System.Windows.Forms.TableLayoutPanel
         Me.DetailsLayoutPanel = New System.Windows.Forms.TableLayoutPanel
         Me.Version = New System.Windows.Forms.Label
-        Me.Copyright = New System.Windows.Forms.Label
         Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.Copyright = New System.Windows.Forms.Label
         Me.MainLayoutPanel.SuspendLayout()
         Me.DetailsLayoutPanel.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -41,8 +40,8 @@ Partial Class Splash
         Me.MainLayoutPanel.BackColor = System.Drawing.Color.White
         Me.MainLayoutPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.MainLayoutPanel.ColumnCount = 2
-        Me.MainLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243.0!))
-        Me.MainLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100.0!))
+        Me.MainLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 245.0!))
+        Me.MainLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123.0!))
         Me.MainLayoutPanel.Controls.Add(Me.DetailsLayoutPanel, 1, 1)
         Me.MainLayoutPanel.Controls.Add(Me.PictureBox1, 0, 0)
         Me.MainLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill
@@ -59,16 +58,15 @@ Partial Class Splash
         Me.DetailsLayoutPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.DetailsLayoutPanel.BackColor = System.Drawing.Color.Transparent
         Me.DetailsLayoutPanel.ColumnCount = 1
-        Me.DetailsLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 247.0!))
-        Me.DetailsLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 142.0!))
+        Me.DetailsLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.DetailsLayoutPanel.Controls.Add(Me.Version, 0, 0)
         Me.DetailsLayoutPanel.Controls.Add(Me.Copyright, 0, 1)
-        Me.DetailsLayoutPanel.Location = New System.Drawing.Point(246, 221)
+        Me.DetailsLayoutPanel.Location = New System.Drawing.Point(248, 221)
         Me.DetailsLayoutPanel.Name = "DetailsLayoutPanel"
         Me.DetailsLayoutPanel.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.DetailsLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.0!))
-        Me.DetailsLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.0!))
-        Me.DetailsLayoutPanel.Size = New System.Drawing.Size(247, 79)
+        Me.DetailsLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.DetailsLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.DetailsLayoutPanel.Size = New System.Drawing.Size(245, 79)
         Me.DetailsLayoutPanel.TabIndex = 1
         '
         'Version
@@ -77,10 +75,21 @@ Partial Class Splash
         Me.Version.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Version.Location = New System.Drawing.Point(3, 0)
         Me.Version.Name = "Version"
-        Me.Version.Size = New System.Drawing.Size(241, 30)
+        Me.Version.Size = New System.Drawing.Size(239, 39)
         Me.Version.TabIndex = 1
         Me.Version.Text = "Prelease version - It downloads packages now!"
         Me.Version.TextAlign = System.Drawing.ContentAlignment.TopRight
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(239, 212)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'Copyright
         '
@@ -89,21 +98,10 @@ Partial Class Splash
         Me.Copyright.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Copyright.Location = New System.Drawing.Point(3, 39)
         Me.Copyright.Name = "Copyright"
-        Me.Copyright.Size = New System.Drawing.Size(241, 40)
+        Me.Copyright.Size = New System.Drawing.Size(239, 40)
         Me.Copyright.TabIndex = 2
         Me.Copyright.Text = "Copyright"
         Me.Copyright.TextAlign = System.Drawing.ContentAlignment.TopRight
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(237, 212)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
         '
         'Splash
         '
@@ -125,5 +123,6 @@ Partial Class Splash
 
     End Sub
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Copyright As System.Windows.Forms.Label
 
 End Class

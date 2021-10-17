@@ -33,10 +33,9 @@ Public Class GetPkg
             archiver.BaseDir = "pkgs/2000s"
             archiver.ExtractFiles("*.*")
             archiver.CloseArchive()
+            My.Computer.FileSystem.DeleteFile("2000s Games.zip")
         Catch ae As ArchiverException
             MsgBox("I ran into an error, try again.", MsgBoxStyle.Critical, "Exception Occurred")
         End Try
-
-        My.Computer.FileSystem.DeleteFile("2000s Games.zip")
     End Sub
 End Class

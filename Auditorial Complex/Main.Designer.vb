@@ -20,7 +20,6 @@ Partial Class Main
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
-        Me.ListBox1 = New System.Windows.Forms.ListBox
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip
         Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.AddPackageToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
@@ -28,34 +27,26 @@ Partial Class Main
         Me.ClearPackageListToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.InfoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem
         Me.CreditsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel
-        Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel
-        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.TextBox2 = New System.Windows.Forms.TextBox
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.TextBox1 = New System.Windows.Forms.TextBox
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel
+        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel
+        Me.textURL = New System.Windows.Forms.TextBox
+        Me.buttonDownload = New System.Windows.Forms.Button
+        Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel
+        Me.listPkgs = New System.Windows.Forms.ListBox
+        Me.textDesc = New System.Windows.Forms.TextBox
         Me.MenuStrip1.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
-        Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
+        Me.TableLayoutPanel4.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'ListBox1
-        '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(3, 3)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(367, 173)
-        Me.ListBox1.TabIndex = 2
         '
         'MenuStrip1
         '
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolsToolStripMenuItem, Me.InfoToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(373, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(502, 24)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -94,106 +85,104 @@ Partial Class Main
         'CreditsToolStripMenuItem
         '
         Me.CreditsToolStripMenuItem.Name = "CreditsToolStripMenuItem"
-        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
         Me.CreditsToolStripMenuItem.Text = "Credits"
+        '
+        'HelpToolStripMenuItem
+        '
+        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
+        Me.HelpToolStripMenuItem.Text = "Help"
         '
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.95174!))
-        Me.TableLayoutPanel1.Controls.Add(Me.ListBox1, 0, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel2, 0, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel3, 0, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel4, 0, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 24)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 72.4!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.6!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(373, 250)
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 84.32204!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.67797!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(502, 221)
         Me.TableLayoutPanel1.TabIndex = 4
-        '
-        'TableLayoutPanel2
-        '
-        Me.TableLayoutPanel2.ColumnCount = 1
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 77.65668!))
-        Me.TableLayoutPanel2.Controls.Add(Me.TableLayoutPanel3, 0, 0)
-        Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(3, 184)
-        Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
-        Me.TableLayoutPanel2.RowCount = 1
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(367, 63)
-        Me.TableLayoutPanel2.TabIndex = 3
         '
         'TableLayoutPanel3
         '
         Me.TableLayoutPanel3.ColumnCount = 2
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 85.0!))
-        Me.TableLayoutPanel3.Controls.Add(Me.Button2, 1, 1)
-        Me.TableLayoutPanel3.Controls.Add(Me.TextBox2, 0, 1)
-        Me.TableLayoutPanel3.Controls.Add(Me.Button1, 1, 0)
-        Me.TableLayoutPanel3.Controls.Add(Me.TextBox1, 0, 0)
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 90.0!))
+        Me.TableLayoutPanel3.Controls.Add(Me.textURL, 0, 0)
+        Me.TableLayoutPanel3.Controls.Add(Me.buttonDownload, 1, 0)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 189)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
-        Me.TableLayoutPanel3.RowCount = 2
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(361, 57)
-        Me.TableLayoutPanel3.TabIndex = 2
+        Me.TableLayoutPanel3.RowCount = 1
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(496, 29)
+        Me.TableLayoutPanel3.TabIndex = 5
         '
-        'Button2
+        'textURL
         '
-        Me.Button2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Button2.Location = New System.Drawing.Point(279, 31)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(79, 23)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Download"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.textURL.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.textURL.Location = New System.Drawing.Point(3, 3)
+        Me.textURL.Name = "textURL"
+        Me.textURL.ReadOnly = True
+        Me.textURL.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
+        Me.textURL.Size = New System.Drawing.Size(400, 20)
+        Me.textURL.TabIndex = 3
         '
-        'TextBox2
+        'buttonDownload
         '
-        Me.TextBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBox2.Location = New System.Drawing.Point(3, 31)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
-        Me.TextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox2.Size = New System.Drawing.Size(270, 20)
-        Me.TextBox2.TabIndex = 3
+        Me.buttonDownload.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.buttonDownload.Location = New System.Drawing.Point(409, 3)
+        Me.buttonDownload.Name = "buttonDownload"
+        Me.buttonDownload.Size = New System.Drawing.Size(84, 23)
+        Me.buttonDownload.TabIndex = 4
+        Me.buttonDownload.Text = "Download"
+        Me.buttonDownload.UseVisualStyleBackColor = True
         '
-        'Button1
+        'TableLayoutPanel4
         '
-        Me.Button1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Button1.Location = New System.Drawing.Point(279, 3)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(79, 22)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Remove"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.TableLayoutPanel4.ColumnCount = 2
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.54839!))
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.45161!))
+        Me.TableLayoutPanel4.Controls.Add(Me.listPkgs, 0, 0)
+        Me.TableLayoutPanel4.Controls.Add(Me.textDesc, 1, 0)
+        Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
+        Me.TableLayoutPanel4.RowCount = 1
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(496, 180)
+        Me.TableLayoutPanel4.TabIndex = 4
         '
-        'TextBox1
+        'listPkgs
         '
-        Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBox1.Location = New System.Drawing.Point(3, 3)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox1.Size = New System.Drawing.Size(270, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.listPkgs.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.listPkgs.FormattingEnabled = True
+        Me.listPkgs.Location = New System.Drawing.Point(3, 3)
+        Me.listPkgs.Name = "listPkgs"
+        Me.listPkgs.Size = New System.Drawing.Size(210, 173)
+        Me.listPkgs.TabIndex = 3
         '
-        'HelpToolStripMenuItem
+        'textDesc
         '
-        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.HelpToolStripMenuItem.Text = "Help"
+        Me.textDesc.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.textDesc.Location = New System.Drawing.Point(219, 3)
+        Me.textDesc.Multiline = True
+        Me.textDesc.Name = "textDesc"
+        Me.textDesc.ReadOnly = True
+        Me.textDesc.Size = New System.Drawing.Size(274, 174)
+        Me.textDesc.TabIndex = 4
         '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(373, 274)
+        Me.ClientSize = New System.Drawing.Size(502, 245)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -206,28 +195,28 @@ Partial Class Main
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.TableLayoutPanel2.ResumeLayout(False)
         Me.TableLayoutPanel3.ResumeLayout(False)
         Me.TableLayoutPanel3.PerformLayout()
+        Me.TableLayoutPanel4.ResumeLayout(False)
+        Me.TableLayoutPanel4.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents TableLayoutPanel1 As System.Windows.Forms.TableLayoutPanel
-    Friend WithEvents TableLayoutPanel2 As System.Windows.Forms.TableLayoutPanel
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents ToolsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AddPackageToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents InfoToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CreditsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents GetNewPackagesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ClearPackageListToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents TableLayoutPanel3 As System.Windows.Forms.TableLayoutPanel
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents TableLayoutPanel4 As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents listPkgs As System.Windows.Forms.ListBox
+    Friend WithEvents textDesc As System.Windows.Forms.TextBox
+    Friend WithEvents TableLayoutPanel3 As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents textURL As System.Windows.Forms.TextBox
+    Friend WithEvents buttonDownload As System.Windows.Forms.Button
 
 End Class
